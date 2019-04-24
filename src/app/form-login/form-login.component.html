@@ -1,0 +1,11 @@
+  <mat-card class="form-authorisation">
+      <mat-card-title class="logo">
+          <p class="text">Телегра<span class="text__character-font">ф</span></p>
+      </mat-card-title>
+      <mat-card-content class="input-element">
+          <mat-form-field>
+              <input matInput placeholder="Введите имя" (keyup.enter) = "onEnterPress()" [(ngModel)]="inputName"/>
+            </mat-form-field>
+            <button mat-icon-button (click) = "onLogIn()"><mat-icon>input</mat-icon></button>
+      </mat-card-content>
+  </mat-card>

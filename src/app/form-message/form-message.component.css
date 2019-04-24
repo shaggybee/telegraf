@@ -1,0 +1,38 @@
+.form-message {
+    width: 85%;
+    margin: 5px auto;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+}
+
+.form-row {
+    white-space: normal;
+    height: 100%;
+    width: 100%;
+}
+
+.form-redact {
+    display: flex;
+    width: 100%;
+    white-space: normal;
+    align-items: center;
+}
+
+.text {
+    color:#425664;
+    font-size: 15px;
+}
+
+.text-user-name {
+    font-size: 16px;
+    color: #1181B2;
+}
+
+.text-time {
+    color:#929D9E;
+    font-size: 13px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
